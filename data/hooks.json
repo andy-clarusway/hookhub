@@ -1,0 +1,58 @@
+{
+  "hooks": [
+    {
+      "id": "hook-001",
+      "name": "Security Command Blocker",
+      "category": "Security",
+      "description": "Blocks dangerous commands like rm -rf and git reset --hard in PreToolUse hooks. Provides deterministic security guardrails for your Claude Code workflow.",
+      "repoUrl": "https://github.com/disler/claude-code-hooks-mastery",
+      "author": "disler",
+      "hookType": "PreToolUse"
+    },
+    {
+      "id": "hook-002",
+      "name": "Multi-Agent Observability",
+      "category": "Monitoring",
+      "description": "Real-time monitoring dashboard for Claude Code agents with hook event tracking. Intercepts lifecycle events and sends data to an observability server.",
+      "repoUrl": "https://github.com/disler/claude-code-hooks-multi-agent-observability",
+      "author": "disler",
+      "hookType": "Multiple"
+    },
+    {
+      "id": "hook-003",
+      "name": "TypeScript Hooks with Type Safety",
+      "category": "Workflow",
+      "description": "Full type safety and auto-completion for writing Claude Code hooks in TypeScript. Includes fully typed payloads for all hook events.",
+      "repoUrl": "https://github.com/johnlindquist/claude-hooks",
+      "author": "johnlindquist",
+      "hookType": "Multiple"
+    },
+    {
+      "id": "hook-004",
+      "name": "Code Quality Enforcer",
+      "category": "Quality Control",
+      "description": "Comprehensive hooks for enforcing clean code practices and automated quality checks. Includes automatic validation and notifications during sessions.",
+      "repoUrl": "https://github.com/decider/claude-hooks",
+      "author": "decider",
+      "hookType": "PostToolUse"
+    },
+    {
+      "id": "hook-005",
+      "name": "Skill Auto-Activation System",
+      "category": "Automation",
+      "description": "Automatically activate skills and track tool usage with post-hook automation. Features 6 hooks including skill-activation-prompt that work out of the box.",
+      "repoUrl": "https://github.com/diet103/claude-code-infrastructure-showcase",
+      "author": "diet103",
+      "hookType": "Multiple"
+    },
+    {
+      "id": "hook-006",
+      "name": "Awesome Claude Code Collection",
+      "category": "Workflow",
+      "description": "Curated list of commands, hooks, and workflows for Claude Code. A comprehensive resource featuring hooks, agents, and skills from the community.",
+      "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+      "author": "hesreallyhim",
+      "hookType": "Multiple"
+    }
+  ]
+}
